@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 99vh;
+        }
+        .box{
+            width: 40%;
+            background-color: brown;
+            padding: 70px 30px;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        
+    <form>
+        
+        <h2>Step 1 : Your Details</h2>
+        <hr>
+
+        <label for="fname"> First Name :</label>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="lname"> Last Name :</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="number">Mobile Number :</label>
+        <input type="number" id="number" name="number" maxlength="10"><br><br><hr>
+
+
+        <h2>Step 2: Delivery address</h2>
+
+        <label for="address">Address :</label>
+        <input type="text" id="address" name="address"><br><br>
+
+        <label for="pin">Pin Code :</label>
+        <input type="number" id="pin" name="pin" maxlength="6"><br><br>
+
+        <label for="country">Country :</label>
+        <input type="text" id="country" name="country" placeholder="India"> <br><hr>
+
+        <h2>Step 3: Card Details</h2>
+
+        <label for="card"> Card Type :</label>
+        
+        <label for="visa">Visa</label>
+        <input type="radio" id="visa" name="card">
+
+        <label for="master">Mastercard</label>
+        <input type="radio" id="master" name="card">
+
+        <label for="rupay">Rupay</label>
+        <input type="radio" id="rupay" name="card"> 
+
+        <br><br>
+
+        <label for="cnumber"> Card Number :</label>
+        <input type="number" id="cnumber" name="cnumber" maxlength="12"><br><br>
+
+        <label for="cvv">CVV :</label>
+        <input type="number" id="cvv" name="cvv" maxlength="3"><br><br>
+
+        <label for="cname"> Name On Card :</label>
+        <input type="text" id="cname" name="cname"><hr>
+
+        <input type="submit" value="submit">
+        <input type="reset"  value="reset now">
+
+
+    
+    </form>
+
+
+  </div>
+</body>
+
+</html>
